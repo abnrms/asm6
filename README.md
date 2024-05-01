@@ -7,6 +7,8 @@ This program turns MARS into a MIDI piano, with 128 "different" sounds to choose
 from, and the ability to dynamically customize things like octave and note duration.
 Includes a functioning GUI which looks like a piano and keeps track of all notable information. Try it out!
 
+YouTube Video: https://youtu.be/RdQx3S_ph6Y
+
 ## To use with MARS:
   Open Mars4.5la.jar
   Open asm6.s in MARS simulator
