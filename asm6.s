@@ -87,6 +87,8 @@ timeCounts:		# array of times since each key was pressed
 #     update time pressed for keyboard key when pressed
 #     if (ch == ESCAPE) exit()
 
+.globl main
+
 main:
 
 	jal	drawInit		# drawInit() - initializes the GUI
