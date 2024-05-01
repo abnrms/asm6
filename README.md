@@ -1,4 +1,4 @@
-## Asm 6 - MIDI piano in MIPS
+# Asm 6 - MIDI piano in MIPS
 Author: Hamlet Taraz @ University of Arizona
 Course: CSC 252 Spring 2024
 Instructor: Russ Lewis
@@ -7,7 +7,7 @@ This program turns MARS into a MIDI piano, with 128 "different" sounds to choose
 from, and the ability to dynamically customize things like octave and note duration.
 Includes a functioning GUI which looks like a piano and keeps track of all notable information. Try it out!
 
-# To use with MARS:
+## To use with MARS:
   Open Mars4.5la.jar
   Open asm6.s in MARS simulator
   Make sure "Settings -> Initialize Program Counter to global 'main' if defined" is checked
@@ -25,7 +25,7 @@ Includes a functioning GUI which looks like a piano and keeps track of all notab
   then type into the bottom box of the keyboard simulator and your keys will be registered!
   See below for controls.
 
-# Controls:
+## Controls:
   exit program - ESC
   reset values - '`' (next to 1, under the escape key)
 
@@ -40,7 +40,7 @@ Includes a functioning GUI which looks like a piano and keeps track of all notab
           cycle through sounds - '[' and ']'
                by 16 at a time - '{' and '}' (hold shift)
 
-# Sound key:
+## Sound key:
   Source: https://courses.missouristate.edu/KenVollmar/mars/Help/SyscallHelp.html
 
 	0-7	    Piano			        64-71	Reed
